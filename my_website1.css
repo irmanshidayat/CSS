@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	text-align: center;
+}
+
+#profil{
+	background-color: lightgrey;
+	padding: 65px;
+}
+
+#profil img{
+	border-radius: 50%;
+	height: 350px;
+}
+
+#main{
+	width: 60%;
+	margin: auto;
+}
+
+/*skill*/
+#skill{
+	display: flex;
+	/*justify-content digunakan untuk memberi jarak antar flex colom horizontal*/
+	justify-content: space-between;
+}
+
+.card{
+	width: 30%;
+	height: 500px;
+	border: 1px solid lightgrey;
+	overflow: hidden;
+}
+
+.card img{
+	width: 100%;
+}
+
+/*form*/
+input{
+	width: 100%;
+	margin-bottom: : 20px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+textarea{
+	width: 100%;
+	margin-bottom: : 20px;
+	border-radius: 5px
+}
+
+button{
+	background-color: black;
+	color: white;
+	border: none;
+	width: 200px;
+	height: 30px;
+}
+
+}
+/*footer*/
+footer img{
+	margin-right: 20px: 
+}

@@ -1,0 +1,23 @@
+/*uuntuk memanggil class satu harus diawali dengan titik(.)*/
+.satu{
+	color: blue;
+}
+.enam p{
+	font-size: 24px;
+}
+.enam img{
+	width: 300px;
+}
+/*kalau tanpa class .lima juga bisa*/
+.lima{
+	width: 300px;
+
+}
+.lima .saya{
+	color: red;
+}
+.lima .kamu{
+	color: blue;
+	background-color: green;
+	font-size: 20px;
+}

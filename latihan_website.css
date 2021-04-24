@@ -1,0 +1,171 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+body{
+  /*background-image: url('../HTML/aset/icon/instagram.jpg');*/
+  background-repeat: repeat;
+  background-attachment:  
+  background-size: 100% 100%;
+  background-color: white;
+}
+
+/*header*/
+.box{
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	/*background-color: lightblue;*/
+	display: flex;
+	align-items: center;
+
+	background-image: url('../HTML/aset/tembok.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 50%;
+}
+.box p{
+	text-align: center;
+	margin-top: 20px; 
+}
+
+.content{
+	width: 500px;
+	height: 100px;
+	background-color: white;
+	margin: auto;
+	font-size: 50px
+}
+
+/*menu home dll*/
+.menu{
+	background-color: lightblue;
+	height: 40px;
+}
+
+.menu ul li{
+	display: inline-block;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.menu ul li:hover{
+	font-size: 18px;
+	font-family: calibri;
+  /*background-color: red;*/
+}
+
+/*konten gambar*/
+/*.content1 img {*/
+	/*display: flex;*/
+	/*border: 2px solid red;
+  	border-radius: 15px;
+  	height: auto;
+  	width: 50%;*/	
+/*}*/
+
+
+/*dropdown produk*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*konten*/
+.content1 {
+  display: flex;
+  background-color: white;
+  text-align: justify;
+  background-image: url('../HTML/aset/leaves.png');
+}
+
+.content1 .imageflower {
+  /*background-color: #f1f1f1;*/
+  margin: 11PX;
+  width: 75%;
+  padding: 20px;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+/*flex column*/
+.content1 .imageirman {
+  display: flex;
+  flex-direction: column;
+  /*background-color: #f1f1f1;*/
+  width: 23%;
+}
+
+.content1 .imageirman .fotoirman {
+  /*background-color: #f1f1f1;*/
+  /*width: 100%;*/
+  margin: 10px;
+  text-align: center;
+  /*line-height: 75px;*/
+  font-size: 30px;
+}
+
+.fotoirman img{
+	border-radius: 50%;
+}
+
+.content1 .medsos a img{
+	width: 20%;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.medsos{
+	text-align: center;
+	/*background-color: lightblue;*/
+}
+
+.jam{
+	text-align: center;
+}
+
+/*testing*/
+.block-grid{
+	background-color: silver;
+	text-align: center;
+	display: flex;
+}
+
+/*video*/
+video{
+	height: auto;
+	width: 100%;
+	margin-top:20%;
+}
+
+/*footer*/
+footer{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: grey;
+    color: white;
+}
